@@ -1,0 +1,83 @@
+body {
+  background-image: url("/static/Assets/Images/dark_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.main-card {
+  background-color: rgba(225, 219, 225, 0.75);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(224, 222, 224, 0.5);
+  width: 800px; /* Adjusted for better readability */
+  max-width: 90%;
+  text-align: left;
+}
+
+.main-title {
+  color: #0e0e0e;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-label {
+  color: #080808;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  overflow-y: scroll; /* Add scroll for long content */
+  height: 300px; /* Limit the height of the textarea */
+  max-height: 300px;
+}
+
+.form-control::placeholder {
+  color: #cccccc;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.check-button,
+.logout-button {
+  width: 30%;
+  transition: background-color 0.3s;
+}
+
+.check-button {
+  background-color: #007bff;
+  border: none;
+}
+
+.check-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #5a6268;
+}
+
+h3 {
+  color: #ffffff;
+}

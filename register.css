@@ -1,0 +1,68 @@
+body {
+  background-image: url("/static/Assets/Images/dark_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.register-card {
+  background-color: rgba(225, 219, 225, 0.75);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(224, 222, 224, 0.5);
+  width: 400px;
+  max-width: 90%;
+  text-align: left;
+}
+
+.register-title {
+  color: #060606;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-label {
+  color: #080808;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.form-control::placeholder {
+  color: #cccccc;
+}
+
+.text-center p {
+  color: #060606;  /* Ensure the text color is white for contrast */
+  font-size: 1rem; /* Optional: Adjust font size */
+}
+
+.text-center a {
+  color: #007bff; /* Color for the link */
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.text-center a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
